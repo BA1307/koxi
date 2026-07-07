@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bwenke | Modern Educational Excellence</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body class="home-page">
+
+  <!-- --- HEADER & NAVIGATION --- -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        Bwenke
+      </a>
+      
+      <nav class="nav-container">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="courses.html" class="nav-link">Courses</a></li>
+          <li><a href="chemistry.html" class="nav-link">Chemistry</a></li>
+          <li><a href="biology.html" class="nav-link">Biology</a></li>
+          <li><a href="cbc.html" class="nav-link">CBC</a></li>
+          <li><a href="design.html" class="nav-link">Design</a></li>
+          <li><a href="ai.html" class="nav-link">AI Tutor</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html" class="btn-signup">Sign Up</a>
+        <button class="hamburger" aria-label="Toggle Navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero">
+    <!-- Playful Background decorations mimicking screenshot doodles -->
+    <div class="hero-decorations">
+      <div class="decor-item star-1">★</div>
+      <div class="decor-item star-2">★</div>
+      <div class="decor-item star-3">✦</div>
+      <div class="decor-item curve-arrow">
+        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity: 0.7;">
+          <path d="M10 10 Q 30 20 40 45" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <path d="M35 45 L42 47 L43 38" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="hero-center-content reveal">
+        <h1 class="hero-main-title">Advance Your Science & Tech Education</h1>
+        
+        <div class="hero-cta-group hero-center-ctas">
+          <a href="courses.html" class="btn-pill-orange">
+            Explore Tracks <span class="arrow">→</span>
+          </a>
+          <a href="about.html" class="btn-pill-dark">
+            Join Academy <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Arched portraits grid side-by-side -->
+      <div class="hero-arches-grid reveal">
+        <!-- Arch 1: Purple frame -->
+        <div class="arch-card arch-purple">
+          <div class="arch-inner">
+            <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=400" alt="Tanzanian Chemistry Student studying science" referrerPolicy="no-referrer" />
+          </div>
+        </div>
+        
+        <!-- Arch 2: Yellow frame (centered, slightly elevated) -->
+        <div class="arch-card arch-yellow arch-elevated">
+          <div class="arch-inner">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=400" alt="Tanzanian Biology Students collaborating in class" referrerPolicy="no-referrer" />
+          </div>
+        </div>
+        
+        <!-- Arch 3: Mint/Green frame -->
+        <div class="arch-card arch-green">
+          <div class="arch-inner">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=400" alt="Tanzanian Technology Student coding on computers" referrerPolicy="no-referrer" />
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Torn Paper separator bottom -->
+    <div class="hero-wave-divider">
+      <svg viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="filter: drop-shadow(0px -4px 8px rgba(0,0,0,0.08));">
+        <!-- Back layer (translucent torn paper edge) -->
+        <path d="M0,50 L50,35 L100,65 L150,45 L200,80 L250,60 L300,40 L350,55 L400,30 L450,65 L500,45 L550,75 L600,50 L650,35 L700,60 L750,40 L800,75 L850,55 L900,35 L950,65 L1000,45 L1050,80 L1100,55 L1150,35 L1200,65 L1250,45 L1300,75 L1350,50 L1400,35 L1440,65 L1440,200 L0,200 Z" fill="rgba(255, 255, 255, 0.45)" style="transform: translateY(-16px);" />
+        <!-- Front layer (solid white torn paper edge) -->
+        <path d="M0,60 L50,45 L100,75 L150,55 L200,90 L250,70 L300,50 L350,65 L400,40 L450,75 L500,55 L550,85 L600,60 L650,45 L700,70 L750,50 L800,85 L850,65 L900,45 L950,75 L1000,55 L1050,90 L1100,65 L1150,45 L1200,75 L1250,55 L1300,85 L1350,60 L1400,45 L1440,75 L1440,200 L0,200 Z" fill="#ffffff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- --- CORE SUBJECT TRACKS (4 Category Cards) --- -->
+  <section class="section category-tracks-section" id="topics">
+    <div class="container">
+      <div class="grid-4">
+        <!-- Card 1: Chemistry -->
+        <div class="category-card reveal delay-1">
+          <div class="cat-icon-wrapper icon-green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.31"/><path d="M14 2v7.31"/><path d="M8.5 2h7"/><path d="M14 11.54V15a2 2 0 0 0 1.54 1.94l3.19.8A2 2 0 0 1 20.27 20h-12.5a2 2 0 0 1-1.46-2.26l3.19-.8A2 2 0 0 0 10 15v-3.46"/></svg>
+          </div>
+          <h3 class="cat-title">CHEMISTRY</h3>
+          <p class="cat-desc">
+            Master atomic structures, stoichiometric calculations, and organic chemical reactions through interactive 3D simulations.
+          </p>
+          <a href="chemistry.html" class="btn-cat-view">
+            View More <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 2: Biology -->
+        <div class="category-card reveal delay-2">
+          <div class="cat-icon-wrapper icon-orange">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.25-2.5 3.5-2.5 3.5h12s-1-2.25-2.5-3.5"/><path d="M19.5 16.5c1.5 1.25 2.5 3.5 2.5 3.5h-12s1-2.25 2.5-3.5"/><path d="M2 10h20"/><path d="M12 2v18"/></svg>
+          </div>
+          <h3 class="cat-title">BIOLOGY</h3>
+          <p class="cat-desc">
+            Explore human physiology, cell structures, ecology, and genetic inheritance models via interactive academic diagrams.
+          </p>
+          <a href="biology.html" class="btn-cat-view">
+            View More <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 3: AI -->
+        <div class="category-card reveal delay-3">
+          <div class="cat-icon-wrapper icon-teal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+          </div>
+          <h3 class="cat-title">ARTIFICIAL INTEL</h3>
+          <p class="cat-desc">
+            Unlock the core concepts of machine learning, neural networks, computer vision, and modern language processing models.
+          </p>
+          <a href="cbc.html" class="btn-cat-view">
+            View More <span class="arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Card 4: Digital Tech -->
+        <div class="category-card reveal delay-4">
+          <div class="cat-icon-wrapper icon-red">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3 class="cat-title">DIGITAL TECH</h3>
+          <p class="cat-desc">
+            Learn computer architecture, programming paradigms, cyber security, and advanced ICT competencies for the digital age.
+          </p>
+          <a href="courses.html" class="btn-cat-view">
+            View More <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WELCOME / ABOUT SECTION WITH TAPED PHOTO --- -->
+  <section class="section welcome-taped-section">
+    <div class="container">
+      <div class="welcome-taped-grid">
+        <!-- Left Side: Image with tape details -->
+        <div class="taped-image-container reveal-left">
+          <div class="taped-frame">
+            <!-- Corner adhesive tape effect styled purely with CSS -->
+            <div class="tape tape-tl"></div>
+            <div class="tape tape-br"></div>
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&q=80&w=500" alt="Students in Classroom" class="taped-img" />
+          </div>
+        </div>
+
+        <!-- Right Side: Content description -->
+        <div class="taped-content reveal-right">
+          <!-- Playful Star Doodle next to section heading -->
+          <div class="section-badge-doodle">
+            <span class="doodle-star">★</span>
+            <span class="section-tag-small">ADVANCED EDUCATION</span>
+          </div>
+          
+          <h2 class="taped-heading">The premier academic hub for science & technology</h2>
+          
+          <p class="taped-text">
+            Bwenke cultivates a dynamic, state-of-the-art academic sanctuary where abstract science, algorithms, and technical concepts become concrete physical understanding. Our specialized tracks are designed to ignite innovation and analytical capability in every student.
+          </p>
+          
+          <!-- checklist points with custom icons -->
+          <div class="taped-checklist-grid">
+            <div class="checklist-item">
+              <span class="check-icon">✓</span>
+              <span class="check-text">Interactive Labs</span>
+            </div>
+            <div class="checklist-item">
+              <span class="check-icon">✓</span>
+              <span class="check-text">Expert Instructors</span>
+            </div>
+            <div class="checklist-item">
+              <span class="check-icon">✓</span>
+              <span class="check-text">Hands-on Practice</span>
+            </div>
+            <div class="checklist-item">
+              <span class="check-icon">✓</span>
+              <span class="check-text">Curriculum Aligned</span>
+            </div>
+          </div>
+
+          <a href="about.html" class="btn btn-pill-teal">
+            Explore More <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- WHY CHOOSE US SECTION --- -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag" style="background-color: #ECFDF5; color: #059669;">The Bwenke Advantage</span>
+        <h2>Why Bwenke is the Ultimate Choice for Your Future</h2>
+        <p>Bwenke stands alone as the premier gold standard in science and technology education, transforming passive learning into brilliant mastery through world-class interactive labs, elite mentorship, and hands-on discovery.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Feature 1 -->
+        <div class="card-feature reveal delay-1">
+          <div class="feature-icon-wrapper" style="background-color: #EDE9FE; color: #8B5CF6;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h3>World-Class Practical Labs</h3>
+          <p>We don't just teach science; we live it. Bwenke houses state-of-the-art laboratory environments, computer engineering suites, and premium interactive software tools, making complex scientific concepts simple and vivid through immersive, hands-on experimentation.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="card-feature reveal delay-2">
+          <div class="feature-icon-wrapper" style="background-color: #FEF3C7; color: #D97706;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          </div>
+          <h3>Gold-Standard CBC Integration</h3>
+          <p>As true pioneers in educational excellence, our curriculum is fully optimized for modern Competency-Based Education. We focus on building critical thinking, high-level creativity, deep self-efficacy, and actual field capability rather than just memorizing for a test.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="card-feature reveal delay-3">
+          <div class="feature-icon-wrapper" style="background-color: #E0F2FE; color: #0284C7;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </div>
+          <h3>Elite Mentorship & Expert Tutors</h3>
+          <p>Learn directly from East Africa's finest educationists, seasoned scientists, and technology innovators. Our exceptional mentors deliver highly personalized guidance to unlock your unique cognitive talents and accelerate your academic career.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FEATURED COURSES SECTION --- -->
+  <section class="section section-bg">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag">Popular Programs</span>
+        <h2>Explore Our Core Subject Specialties</h2>
+        <p>From core fundamental sciences to cutting edge future-focused technical competencies, choose the learning path that aligns with your goals.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Chemistry Course Card -->
+        <div class="card-course reveal delay-1">
+          <div class="course-banner" style="background: linear-gradient(135deg, #0F52BA 0%, #1D4ED8 100%);">
+            <div class="course-banner-icon">🧪</div>
+            <span class="course-category">Pure Science</span>
+          </div>
+          <div class="course-body">
+            <h3 class="course-title">Chemistry Mastery Program</h3>
+            <p class="course-desc">Dive deep into atoms, bonding, stoichiometry, gas laws, organic chemistry, and dynamic laboratory reactions with guided virtual and practical setups.</p>
+            <div class="course-footer">
+              <span class="course-meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                12 Weeks
+              </span>
+              <a href="chemistry.html" class="course-link">
+                View Syllabus
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biology Course Card -->
+        <div class="card-course reveal delay-2">
+          <div class="course-banner" style="background: linear-gradient(135deg, #10B981 0%, #059669 100%);">
+            <div class="course-banner-icon">🌿</div>
+            <span class="course-category">Life Science</span>
+          </div>
+          <div class="course-body">
+            <h3 class="course-title">Advanced Biology Track</h3>
+            <p class="course-desc">Unravel the blueprints of life. Study cellular respiration, genetics, ecology, human physiology, and plant structures with detailed, interactive diagrams.</p>
+            <div class="course-footer">
+              <span class="course-meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                14 Weeks
+              </span>
+              <a href="biology.html" class="course-link">
+                View Syllabus
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CBC Competency Card -->
+        <div class="card-course reveal delay-3">
+          <div class="course-banner" style="background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);">
+            <div class="course-banner-icon">🎓</div>
+            <span class="course-category">Curriculum</span>
+          </div>
+          <div class="course-body">
+            <h3 class="course-title">CBC Core Competencies</h3>
+            <p class="course-desc">A specialized learning system preparing students with key competencies: Communication, Collaboration, Critical Thinking, and self-directed problem-solving.</p>
+            <div class="course-footer">
+              <span class="course-meta">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Continuous
+              </span>
+              <a href="cbc.html" class="course-link">
+                Learn System
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 3.5rem; justify-content: center; display: flex;">
+        <a href="courses.html" class="btn btn-secondary">View All Available Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- STATISTICS SECTION WITH COUNTERS --- -->
+  <section class="section">
+    <div class="container">
+      <div class="stats-bar reveal">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-target="3500" data-suffix="+">0</div>
+            <div class="stat-label">Active Students</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="28" data-suffix="">0</div>
+            <div class="stat-label">Subject Instructors</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="98" data-suffix="%">0</div>
+            <div class="stat-label">Exam Pass Rate</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-target="15" data-suffix="+">0</div>
+            <div class="stat-label">Educational Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- TESTIMONIALS SECTION --- -->
+  <section class="section section-bg" style="padding-top: 10rem; margin-top: -6rem;">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <span class="section-tag">Success Stories</span>
+        <h2>What Our Students & Parents Are Saying</h2>
+        <p>Real stories of educational transformations, grade boosts, and confidence built through Bwenke's innovative teaching frameworks.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="card-testimonial reveal delay-1">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385zm12.811 0c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385z"/></svg>
+          <p class="testimonial-text">
+            "Before joining Bwenke's Chemistry Mastery program, I used to struggle with stoichiometry and balancing equations. The interactive visual notes and home lab setups completely changed how I look at Chemistry. My grade went from C to A!"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">KO</div>
+            <div>
+              <h5 class="author-name">Kevin Omondi</h5>
+              <p class="author-role">Grade 11 Student</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="card-testimonial reveal delay-2">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385zm12.811 0c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385z"/></svg>
+          <p class="testimonial-text">
+            "As a parent of a student transitioning into CBC, I was highly anxious about how to guide him in the core competencies. Bwenke's focus on collaborative projects and self-efficacy has made my child incredibly independent and creative."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">AM</div>
+            <div>
+              <h5 class="author-name">Alice Mutua</h5>
+              <p class="author-role">Parent of CBC Student</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="card-testimonial reveal delay-3">
+          <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><path d="M11.189 2c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385zm12.811 0c-5.267 0-9.189 4.223-9.189 9.308 0 3.731 2.222 6.514 4.444 8.564 1.489 1.374 3.722 2.128 5.556 2.128l-.513-1.872c-1.353-.086-2.903-.701-3.791-1.637-1.189-1.253-1.706-2.529-1.706-4.491 0-2.822 1.956-5.462 4.189-6.308l1.01 2.308c-1.422.846-1.889 2.538-1.889 3.846v4.615h6v-6.462c0-5.385-3.6-11.385-9.101-11.385z"/></svg>
+          <p class="testimonial-text">
+            "I joined the Bwenke Coding & AI Basics program to get started with tech. The projects are extremely engaging, and the educators explain terms without confusing developer jargon. Now I can build my own web tools!"
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JN</div>
+            <div>
+              <h5 class="author-name">John Njuguna</h5>
+              <p class="author-role">Tech Track Alumnus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- CALL TO ACTION --- -->
+  <section class="section" style="padding-bottom: 8rem;">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Start Your Learning Journey with Bwenke Today</h2>
+        <p>Unlock structured curriculum paths, hand-crafted experimental notes, revision materials, and professional mentorship that shapes futures.</p>
+        <div class="hero-cta-group">
+          <a href="about.html#contact" class="btn btn-white">Get in Touch</a>
+          <a href="courses.html" class="btn btn-secondary" style="border-color: #FFFFFF; color: #FFFFFF;">Explore Courses</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="footer-logo">
+            Bwenke
+          </a>
+          <p style="margin-top: 1rem; color: #94A3B8;">
+            A premier educational institution dedicated to cultivating scientific curiosity, cognitive development, and technological skills in the next generation.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home Overview</a></li>
+            <li><a href="courses.html" class="footer-link">Courses & Tracks</a></li>
+            <li><a href="chemistry.html" class="footer-link">Chemistry Syllabus</a></li>
+            <li><a href="biology.html" class="footer-link">Biology Syllabus</a></li>
+            <li><a href="cbc.html" class="footer-link">CBC Framework</a></li>
+            <li><a href="design.html" class="footer-link">Design Track</a></li>
+            <li><a href="ai.html" class="footer-link">AI Learning Suite</a></li>
+            <li><a href="contact.html" class="footer-link">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Syllabi</h3>
+          <ul class="footer-links">
+            <li><a href="chemistry.html#topics" class="footer-link">Atomic Chemistry</a></li>
+            <li><a href="chemistry.html#practicals" class="footer-link">Chemical Practicals</a></li>
+            <li><a href="biology.html#topics" class="footer-link">Cellular Biology</a></li>
+            <li><a href="biology.html#tips" class="footer-link">Biological Drawing Tips</a></li>
+            <li><a href="cbc.html#competencies" class="footer-link">CBC Core Competencies</a></li>
+            <li><a href="courses.html" class="footer-link">Coding & Tech Track</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Contact details</h3>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Langata Rd, Academic District, Nairobi, Kenya</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+254 700 123 456</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>info@bwenke.edu</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Bwenke. All Rights Reserved. Empowering education, one step at a time.</p>
+        <p>Crafted for Modern Science and Technology Learners</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- --- BACK TO TOP BUTTON --- -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <script type="module" src="/js/script.js"></script>
+</body>
+</html>

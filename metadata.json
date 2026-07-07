@@ -1,0 +1,6 @@
+{
+  "name": "Bwenke",
+  "description": "A modern, responsive, and highly interactive educational website for Bwenke, offering courses in Chemistry, Biology, CBC, ICT, Coding, Marketing, and AI Basics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
